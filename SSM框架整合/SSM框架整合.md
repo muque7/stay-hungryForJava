@@ -50,17 +50,41 @@ https://mvnrepository.com/
 
 ##### 编写配置文件
 
+###### pom.xml
+
+配置依赖
+
+###### web.xml
+
+配置前端控制器
+
+配置加载spring配置文件
+
+配置加载springMVC配置文件
+
 ###### spring配置文件
 
-bean.xml配置文件
+配置加载mybatis配置文件
 
-​	-需要在启动项目时，解析配置文件
+bean
 
-​	所以需要在web.xml文件中，添加启动配置
+事务支持
 
 ###### springMVC配置文件
 
-###### mybatis配置文件
+视图解析器
 
+拦截器
 
+###### mybatis配置文件 
+
+mapper
+
+缓存支持
+
+##### 配置文件之间的关系
+
+web.xml配置spring，spring MVC
+
+spring配置文件中配置mybatis
 
